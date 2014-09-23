@@ -1,3 +1,35 @@
-.header {
-	background: blue;
+header {
+	border:solid 1px black;
+	background:orange;
+	padding:20px;
+}
+
+.sidebar {
+	border:solid 1px black;
+	background-color: yellow;
+	float: left;
+}
+
+.content {
+	border:solid 1px black;
+	background-color: blue;
+	
+}
+
+footer {
+	border:solid 1px black;
+	clear: left;
+	background-color: green;
+}
+
+.logo {
+	border:solid 1px black;
+	float: left;
+	background-color: pink;
+}
+
+.navigation {
+	border:solid 1px black;
+	clear: left;
+	background-color: red;
 }
