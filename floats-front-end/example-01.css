@@ -16,6 +16,7 @@
     /* we don't want the header floated, so nothing to do here! */
 }
 
+
 .sidebar {
     float: left; /* float the sidebar to the left—it will go to the left-most side of its containing element, on a new line after the last non-floated element */
     width: 250px; /* 1024 - 250 = 774px remaining for the main content div. because we used box-sizing, this div will actually be 250px even with 20px of padding on each side. try removing the box-sizing property in style.css and see how that changes the calculated width of this div. */
