@@ -7,12 +7,31 @@
 
 .header {}
 
-.main-content {}
+.main-content {
+	overflow:auto;
+}
 /* hint! */
 
-.post {}
+.post {
+	overflow: auto;
+}
 /* hint! */
 
-.image {}
+.image {
+	float: left;
+	width: 25%;
+/*	height: 300px;*/
+}
 
-.post_excerpt {}
+.image img {
+	min-height: 200px;
+	max-height: 300px;
+
+}
+
+.post_excerpt {
+	float: left;
+	width: 70%;
+	min-height: 200px;
+
+}

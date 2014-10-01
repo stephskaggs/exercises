@@ -5,6 +5,8 @@
 
 /* Example 01 */
 
+
+
 .container {
     width: 1024px; /* fixed width layout */
     margin: 0 auto; /* centers this containing element in the browser viewport */
