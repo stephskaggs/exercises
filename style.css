@@ -1,13 +1,11 @@
 .grid {
-  background: purple;
   padding: 1em;
 }
 
 .container {
   padding: 1em;
-  border: 2px dashed rgba(255,255,255,0.3);
-  color: white;
-  font-family: Helvetica;
+  border: 2px solid black;
+  color: red;
 }
 
 .container:after {
@@ -17,7 +15,7 @@
 }
 
 .row {
-  border 2px solid black;
+  border: 2px solid green;
   margin-bottom: 1em;
 }
 
@@ -28,7 +26,7 @@
 }
 
 .column {
-  border: 1px solid white;
+  border: 1px solid lime;
   padding: 1em;
   float: left;
 }
@@ -59,8 +57,3 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 500px) {
-  .grid {background: blue}
-.column {
-  float: left;
-}
